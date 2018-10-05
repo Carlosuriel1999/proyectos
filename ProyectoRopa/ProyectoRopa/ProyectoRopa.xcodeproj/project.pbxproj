@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FEBF6442167F59E00A4FA32 /* TableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEBF6432167F59E00A4FA32 /* TableVCell.swift */; };
+		0FEBF6462167F66A00A4FA32 /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEBF6452167F66A00A4FA32 /* DViewController.swift */; };
 		4CEDADD32166CFE900945B72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDADD22166CFE900945B72 /* AppDelegate.swift */; };
 		4CEDADD52166CFE900945B72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDADD42166CFE900945B72 /* ViewController.swift */; };
 		4CEDADD82166CFE900945B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDADD62166CFE900945B72 /* Main.storyboard */; };
 		4CEDADDA2166CFEA00945B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDADD92166CFEA00945B72 /* Assets.xcassets */; };
 		4CEDADDD2166CFEA00945B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDADDB2166CFEA00945B72 /* LaunchScreen.storyboard */; };
+		4CEDADE52166D9B500945B72 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDADE42166D9B500945B72 /* TableViewController.swift */; };
+		4CEDADE72166DA7300945B72 /* producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDADE62166DA7300945B72 /* producto.swift */; };
+		4CEDADF12166DE0600945B72 /* Compras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDADF02166DE0600945B72 /* Compras.swift */; };
+		4CEDADF32166DFE900945B72 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDADF22166DFE900945B72 /* TableViewCell.swift */; };
+		4CEDADF52166E28600945B72 /* Cuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDADF42166E28600945B72 /* Cuenta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FEBF6432167F59E00A4FA32 /* TableVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVCell.swift; sourceTree = "<group>"; };
+		0FEBF6452167F66A00A4FA32 /* DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
 		4CEDADCF2166CFE900945B72 /* ProyectoRopa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoRopa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEDADD22166CFE900945B72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEDADD42166CFE900945B72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,11 @@
 		4CEDADD92166CFEA00945B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CEDADDC2166CFEA00945B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CEDADDE2166CFEA00945B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CEDADE42166D9B500945B72 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4CEDADE62166DA7300945B72 /* producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = producto.swift; sourceTree = "<group>"; };
+		4CEDADF02166DE0600945B72 /* Compras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compras.swift; sourceTree = "<group>"; };
+		4CEDADF22166DFE900945B72 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4CEDADF42166E28600945B72 /* Cuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuenta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				4CEDADD92166CFEA00945B72 /* Assets.xcassets */,
 				4CEDADDB2166CFEA00945B72 /* LaunchScreen.storyboard */,
 				4CEDADDE2166CFEA00945B72 /* Info.plist */,
+				4CEDADF22166DFE900945B72 /* TableViewCell.swift */,
+				0FEBF6432167F59E00A4FA32 /* TableVCell.swift */,
+				4CEDADE62166DA7300945B72 /* producto.swift */,
+				4CEDADF02166DE0600945B72 /* Compras.swift */,
+				4CEDADE42166D9B500945B72 /* TableViewController.swift */,
+				4CEDADF42166E28600945B72 /* Cuenta.swift */,
+				0FEBF6452167F66A00A4FA32 /* DViewController.swift */,
 			);
 			path = ProyectoRopa;
 			sourceTree = "<group>";
@@ -136,6 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CEDADD52166CFE900945B72 /* ViewController.swift in Sources */,
+				0FEBF6462167F66A00A4FA32 /* DViewController.swift in Sources */,
+				0FEBF6442167F59E00A4FA32 /* TableVCell.swift in Sources */,
+				4CEDADF52166E28600945B72 /* Cuenta.swift in Sources */,
+				4CEDADF12166DE0600945B72 /* Compras.swift in Sources */,
+				4CEDADE72166DA7300945B72 /* producto.swift in Sources */,
+				4CEDADF32166DFE900945B72 /* TableViewCell.swift in Sources */,
+				4CEDADE52166D9B500945B72 /* TableViewController.swift in Sources */,
 				4CEDADD32166CFE900945B72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
